@@ -642,6 +642,7 @@ a,a:hover{
 /* ------------Testimonials section start----------------*/
 #testimonial{
     background: url('../img/black-and-white-computer-keyboard-desk-209692.jpg') center center/cover no-repeat fixed;
+    padding: 20px 0 40px 0;
     position: relative;
     z-index: 1;
 }
@@ -652,8 +653,23 @@ a,a:hover{
     width: 100%;
     top:0;
     left: 0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.8);
     z-index: -1;
+}
+.test-head{
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Open Sans' sans-serif;
+    color: #fff;
+}
+.test-head h2{
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.test-head h4{
+    font-size: 25px;
+    font-weight: 400;
 }
 .slick-slider{
     overflow: hidden;
